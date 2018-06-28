@@ -1,0 +1,330 @@
+/*Common elements*/
+body {
+    font-size: 67.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #607D8B url("01-Assets/Backgrounds/Metal.jpg") no-repeat;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 150% 150%;
+    -moz-background-size: 150% 150%;
+    background-size: 150% 150%;
+    -o-background-size: 150% 150%;
+    display: block;
+    box-sizing: border-box;
+
+
+}
+
+#search{
+    width: 140px;
+    height: 35px;
+    border: 10px;
+    border-radius: 2px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a, a:hover{
+    color: rgb(#C64322);
+    text-decoration: none;
+}
+
+a, a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;   
+}
+
+ul {
+    font-size: 32px;
+    margin: 0 0 0 0 0px;
+    padding: 0 0 0 0px;
+    text-decoration: none;
+    
+}
+
+ul li {
+    margin: 0;
+    padding: 0 0 6px;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+/*Headers*/
+
+header {
+    background: url("01-Assets/Backgrounds/HeaderBGGradient.jpg") no-repeat;
+    background-size: 135%;
+    text-align: right;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color:white;
+    font-size: 64px;
+    margin: 0px;
+    padding: 0;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    background-color: #757575;
+    text-align: center;
+    border: 25px solid #757575;
+    text-underline-position: above;
+
+}
+
+.header{
+    color: white;
+}
+
+h3 {
+    font-family: 'Arial Narrow Bold';
+    color: black;
+    font-size: 48px;
+    text-align: right;
+}
+
+
+h4 {
+    color: black;
+    font-size: 24px;
+    margin: 6px;
+}
+
+h5 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 32px;
+    text-align: top;
+    margin: 0 0 0 0em
+
+}
+
+/*Nav Bars*/
+
+.logo {
+    border-left: 95px solid white;
+    border-right: 95px solid white;
+    border-bottom: 20px solid white;
+
+}
+
+nav {
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 2.0cm 0;
+}
+
+nav ul{
+    margin: 2;
+    padding: 2;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 2;
+}
+
+nav li a, nav li a:visted {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em
+
+}
+
+nav li a:hover {
+    color: #C64322;
+    text-decoration: none;
+}
+
+
+/*Blog Section*/
+
+#blogSection{
+    width: 1920px;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section div.blogButtons{
+    width: 1920px;
+    height: 100px;
+    position: absolute;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+section div.blogLinks{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 100px;
+    margin-left: 20%;
+    float: left;
+    position: relative;
+    left: 60px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.blogLink{
+    color: white;
+}
+
+.blogLink:hover{
+    color: red;
+    text-decoration: none;
+}
+
+section div.blogPanel{
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: 5% 0% 3% 15%;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    color: black;
+
+}
+
+section.div.blogPanel.a{
+    float: left;
+    color: black;
+}
+
+section #blogSection{
+    float: left;
+    position: relative;
+    margin: 0 0 2em;
+    padding: 1.5em 0 2.0em 1.5em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section .blogPhotos{
+    width: 100%;
+}
+
+
+/*Pop Items Section*/
+
+#popularItems{
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.popPanel {
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    margin: 5% 0% 3% 15%;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    color: black;
+}
+
+section #popularItems{
+    float: left;
+    position: relative;
+    background-color: white;
+    margin: 0 0 2em;
+    padding: 1.5em 0 2.0em 1.5em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+.delorean {
+    padding: 61px 0 61px 0;
+}
+
+.tardis {
+    padding: 0 80px 0px 80px;
+    size: 150%;
+}
+
+
+/*Footer*/
+
+footer{
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#menufooter {
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+
+}
+
+nav span {
+    text-align:center;
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 20em;
+    padding: 0;
+    color: white;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+    color: white;
+}
